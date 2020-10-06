@@ -44,6 +44,9 @@ header {
 }
 
 .plane {
+<<<<<<< HEAD
+	size: 2%
+=======
 	width: 150px;
 	height: auto;
 }
@@ -82,6 +85,7 @@ a:hover {
 a:active {
 box-shadow: none;
 top: 5px
+>>>>>>> master
 }
 
 .china__sites {
@@ -99,7 +103,10 @@ top: 5px
 	margin-right: auto;
 }
 
+<<<<<<< HEAD
+=======
 .vanuatu {
     background-image: url("van-background.jpg");
     /* background-color: tomato; */
 }
+>>>>>>> master
