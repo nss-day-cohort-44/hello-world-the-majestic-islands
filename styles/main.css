@@ -27,16 +27,27 @@ h2,h3,h4,h5,h6 {
 
 header {
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-between;
 }
 
 .left__header__image {
-	max-width: 15%;
-	height: auto;
 	display: flex;
+	justify-content: flex-start;
+	
 }
 
 .right__header__image {
-	max-width: 15%;
+	display: flex;
+	justify-content: flex-end;
+	transform: scaleX(-1);
+}
+
+.plane {
+	width: 150px;
+	height: auto;
+}
+
+.plane2 {
+	max-width: 150px;
 	height: auto;
 }
