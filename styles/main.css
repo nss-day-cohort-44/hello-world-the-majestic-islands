@@ -27,9 +27,16 @@ h2,h3,h4,h5,h6 {
 
 header {
 	display: flex;
-	
+	justify-content: flex-end;
 }
 
-.plane {
-	size: 2%
+.left__header__image {
+	max-width: 15%;
+	height: auto;
+	display: flex;
+}
+
+.right__header__image {
+	max-width: 15%;
+	height: auto;
 }
