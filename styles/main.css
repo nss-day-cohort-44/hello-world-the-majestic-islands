@@ -37,11 +37,16 @@ header {
 
 .china__sites {
 	display: flex;
+	justify-content: space-around;
 	padding: 2em;
+
 }
 
 .floating__mts {
-	width: 45%;
+	width: 60%;
 	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
