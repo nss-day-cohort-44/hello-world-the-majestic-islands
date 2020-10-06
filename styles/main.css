@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,500;1,500;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@500&family=Sansita+Swashed:wght@800&display=swap');
+@import "./vanuatu.css";
 /*Typography
 --------------------------------------------------------------*/
 body,
@@ -27,9 +28,65 @@ h2,h3,h4,h5,h6 {
 
 header {
 	display: flex;
+	justify-content: space-between;
+}
+
+.left__header__image {
+	display: flex;
+	justify-content: flex-start;
 	
 }
 
+.right__header__image {
+	display: flex;
+	justify-content: flex-end;
+	transform: scaleX(-1);
+}
+
 .plane {
-	size: 2%
+	width: 150px;
+	height: auto;
+}
+
+.plane2 {
+	max-width: 150px;
+	height: auto;
+}
+
+nav {
+display: flex;
+justify-content: center;
+}
+
+.van__banner__image {
+	display: flex;
+	justify-content: center;
+	padding: 3em
+}
+
+a {
+	background-color: white;
+	box-shadow: blue;
+	color: black;
+	padding: 1em 1.5em;
+	position: relative;
+	text-decoration: none;
+	text-transform: uppercase;
+	border: 5px solid black;
+}
+
+a:hover {
+	background-color: lightblue;
+}
+
+a:active {
+box-shadow: none;
+top: 5px
+}
+
+
+
+.vanuatu {
+    background-image: url("van-background.jpg");
+    /* background-color: tomato; */
 }
