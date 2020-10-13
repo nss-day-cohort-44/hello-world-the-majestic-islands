@@ -16,10 +16,12 @@ export const PeopleList = () => {
     }
 
     contentElement.innerHTML += `
-    <h3>People of Interest in Sweden</h3>
+    <div class="box">
+    <h3 class="title">People of Interest in Sweden</h3>
 
             <div class="citizens">
                 ${peopleHTMLRepresentations}
+            </div>
             </div>
     `
 }

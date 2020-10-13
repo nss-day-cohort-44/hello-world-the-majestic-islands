@@ -17,9 +17,11 @@ export const LandmarksList = () => {
     }
 
     contentElement.innerHTML += `
-    <h3>Landmarks of Sweden</h3>
+    <div class="box">
+    <h3 class="title">Landmarks of Sweden</h3>
          <div class="landmarks">
         ${landmarkHTMLRepresentations}
         </div>
+    </div>
     `
 }
