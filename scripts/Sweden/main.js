@@ -4,6 +4,11 @@ import { CitiesList } from "./SwedenCities/CitiesList.js"
 import { useLandmark } from "./SwedenLandmarks/LandmarkDataProvider.js"
 import { LandmarksList } from "./SwedenLandmarks/LandmarksList.js"
 
-CitiesList();
+import { usePeople } from "./SwedenPeople/PeopleDataProvider.js"
+import { PeopleList } from "./SwedenPeople/PeopleList.js"
 
-LandmarksList();
+CitiesList()
+
+LandmarksList()
+
+PeopleList()

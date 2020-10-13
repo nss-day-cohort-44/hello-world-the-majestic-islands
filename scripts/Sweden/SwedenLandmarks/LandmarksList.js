@@ -8,12 +8,12 @@ export const LandmarksList = () => {
 
     const contentElement = document.querySelector(".sweden__sites")
 
-    const places = useLandmark()
+    const sights = useLandmark()
 
     let landmarkHTMLRepresentations = ""
 
     for ( const sight of sights ) {
-        landmarkHTMLRepresentations += Cities(sight)
+        landmarkHTMLRepresentations += Landmarks(sight)
     }
 
     contentElement.innerHTML += `
