@@ -1,0 +1,4 @@
+const citizens = [
+    { person: "Confucius" },
+    
+]
