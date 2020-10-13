@@ -1,4 +1,10 @@
-import { useCity } from "./cities/CityDataProvider.js"
-useCity()
+import { CityList } from './cities/CityList.js'
+import { LandmarkList } from './landmarks/LandmarkList.js'
 
-console.log("Welcome to the main module")
+
+
+
+
+CityList()
+LandmarkList()
+
