@@ -1,3 +1,4 @@
 const citizens = [
-    {person: }
+    { person: "Confucius" },
+    
 ]
