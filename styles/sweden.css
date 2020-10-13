@@ -1,0 +1,30 @@
+.pic {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.countryName {
+    text-align: center;
+}
+
+.sweden__sites {
+    border-style: double;
+    border-color: goldenrod;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.box {
+    border-style: solid;
+    border-color: black;
+    border-radius: 50 50 50;
+}
+
+.title {
+    text-decoration: underline;
+    
+}

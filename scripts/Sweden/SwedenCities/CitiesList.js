@@ -16,9 +16,11 @@ export const CitiesList = () => {
     }
 
     contentElement.innerHTML += `
-    <h3>Cities of Sweden</h3>
+    <div class="box">
+    <h3 class="title">Cities of Sweden</h3>
     <div class="cities">
     ${cityHTMLRepresentations}
+    </div>
     </div>
     `
 }
