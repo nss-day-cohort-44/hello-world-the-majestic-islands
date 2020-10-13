@@ -1,4 +1,7 @@
-
-export const city = (cityObj) => {
-    return `${cityObj.city}`
+export const City = (cityObj) => {
+    return `
+    <div>
+    
+    <p>${cityObj.city}</p>
+    </div>`
 }

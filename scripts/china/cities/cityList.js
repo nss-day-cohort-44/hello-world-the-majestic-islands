@@ -1,5 +1,5 @@
 import { useCities } from "./CityDataProvider.js"
-import { city } from "./city.js"
+import { City } from "./city.js"
 
 
 
@@ -12,11 +12,12 @@ export const CityList = () => {
     
     for (const city of cities) {
         
-    cityHTMLRepresentations += city(city)
+    cityHTMLRepresentations += City(city)
 
     }
     contentElement.innerHTML += `
     <div class="china__cities">
+    <h3>Famous Cities</h3>
     ${cityHTMLRepresentations}
     </div>`
     
