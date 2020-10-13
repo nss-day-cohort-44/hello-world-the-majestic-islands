@@ -15,20 +15,39 @@ textarea {
 	line-height: 1.5;
 }
 
+body {
+	background: rgb(2,0,36);
+background: linear-gradient(321deg, rgba(2,0,36,1) 0%, rgba(95,174,194,1) 0%, rgba(236,252,255,1) 100%);
+}
+
+body, header, h1 {
+	margin: 0;
+	padding: 25px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
 h1 {
 	font-family: "David Libre";
 	font-size: 64px;
 	letter-spacing: 3px;
 }
 
-h2,h3,h4,h5,h6 {
+.island {
+	padding-top: 25px;
+	text-align: center;
+}
+
+h2, h3, h4,h5,h6 {
   font-family: "Patua One", serif;
   letter-spacing: 2px;
 }
 
-header {
-	display: flex;
-	justify-content: space-between;
+.CountryName {
+	text-align: center;
 }
 
 .left__header__image {
@@ -44,9 +63,6 @@ header {
 }
 
 .plane {
-<<<<<<< HEAD
-	size: 2%
-=======
 	width: 150px;
 	height: auto;
 }
@@ -85,14 +101,12 @@ a:hover {
 a:active {
 box-shadow: none;
 top: 5px
->>>>>>> master
 }
 
 .china__sites {
 	display: flex;
 	justify-content: space-around;
 	padding: 2em;
-
 }
 
 .floating__mts {
@@ -103,10 +117,25 @@ top: 5px
 	margin-right: auto;
 }
 
-<<<<<<< HEAD
-=======
-.vanuatu {
-    background-image: url("van-background.jpg");
-    /* background-color: tomato; */
+.vanuatu__list {
+	display: flex;
+	justify-content: space-around;
+	padding: 2em;
+
 }
->>>>>>> master
+
+.sweden__cites {
+	display: flex;
+	justify-content: space-around;
+	padding: 2em;
+}
+
+.box {
+margin-bottom: 400px;
+}
+
+.footer {
+	display: flex;
+	flex-shrink: 0;
+	padding: 20px;
+}
