@@ -12,6 +12,3 @@ export const useCities = () => {
     return [...cities]
 }
 
-const testCities = useCities()
-
-console.log(testCities)

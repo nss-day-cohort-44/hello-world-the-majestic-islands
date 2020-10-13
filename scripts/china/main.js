@@ -1,3 +1,5 @@
 console.log("Welcome to the main module")
-import { useCities } from "./CityDataProvider.js"
+import { CityList } from "./cities/cityList.js"
+
+CityList()
 
