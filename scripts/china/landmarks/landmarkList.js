@@ -2,7 +2,7 @@ import { landmark } from "./landmark.js"
 import { useLandmarks } from "./landmarkDataProvider.js"
 
 export const LandmarkList = () => {
-    const contentElement = document.querySelector(".china__landmarks")
+    const contentElement = document.querySelector(".china__container")
     const landMarks = useLandmarks()
     let landmarkHTMLRepresentaion = ""
 
@@ -13,7 +13,7 @@ export const LandmarkList = () => {
     }
 
     contentElement.innerHTML += `
-    <div>
+    <div class="china__sites">
         <h3>Sites</h3>
         <p>${landmarkHTMLRepresentaion}</p>
         </div>`
