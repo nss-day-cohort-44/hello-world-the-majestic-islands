@@ -12,7 +12,7 @@ export const CelebritiesList = () => {
     }
 
     contentElement.innerHTML += `
-    <section class="celebList">
+    <section class="celebList"  id="vanuatuContainer">
     <h3>Who to know in Vanuatu</h3>
     <div class="celebContainer">
     ${celebHTMLRepresentation}

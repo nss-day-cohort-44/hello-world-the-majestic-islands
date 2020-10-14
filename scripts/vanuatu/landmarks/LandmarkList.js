@@ -13,7 +13,7 @@ export const LandmarkList = () => {
     }
 
     contentElement.innerHTML += `
-    <section class="landmarkList">
+    <section class="landmarkList"  id="vanuatuContainer">
     <h3>What to do in Vanuatu</h3>
     <div class="landmarkContainer">
     ${landmarkHTMLRepresentations}

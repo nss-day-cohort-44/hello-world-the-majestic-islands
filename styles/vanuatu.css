@@ -4,11 +4,20 @@
      padding: 2em;
  }
 
- /* change in html to correct? BEM */
  .van__bannerImage {
      display: flex;
      justify-content: center;
-     padding: 3em;
+     padding: 2em;
  }
 
- /* change to left__headerImage */
+ .beach__img {
+    border-radius: 8px;
+ }
+
+#vanuatuContainer {
+    border: 2px solid black;
+    margin: 5px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px black;
+    padding: 1em;
+}

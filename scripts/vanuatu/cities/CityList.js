@@ -12,7 +12,7 @@ export const CityList = () => {
     }
 
     contentElement.innerHTML += `
-    <section class="cityList">
+    <section class="cityList" id="vanuatuContainer">
     <h3>Where to go in Vanuatu</h3>
     <div class="cityContainer">
     ${cityHTMLRepresentations}
