@@ -5,7 +5,7 @@ import { City } from "./city.js"
 
 export const CityList = () => {
 
-    const contentElement = document.querySelector(".china__cities")
+    const contentElement = document.querySelector(".china__container")
     const cities = useCities()
     let cityHTMLRepresentations = ""
     
@@ -16,7 +16,7 @@ export const CityList = () => {
 
     }
     contentElement.innerHTML += `
-    <div class="china__cities">
+    <div class="china__sites">
     <h3>Famous Cities</h3>
     ${cityHTMLRepresentations}
     </div>`
