@@ -15,7 +15,7 @@ export const CelebrityList = () => {
    elementContent.innerHTML += `
    <div class=china__citizens>
    <h3>Famous Citizens</h3>
-   <p>${citizenHTMLRepresentations}
+   <p>${citizenHTMLRepresentations}</p>
    </div>`
 
 }
