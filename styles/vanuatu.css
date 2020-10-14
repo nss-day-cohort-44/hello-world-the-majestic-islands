@@ -1,6 +1,14 @@
+ .vanuatu__list {
+     display: flex;
+     justify-content: space-around;
+     padding: 2em;
+ }
 
-/* .vanuatu {
-    background-image: url("van-background.jpg");
-    background-color: tomato;
+ /* change in html to correct? BEM */
+ .van__bannerImage {
+     display: flex;
+     justify-content: center;
+     padding: 3em;
+ }
 
-} */
+ /* change to left__headerImage */
