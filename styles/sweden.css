@@ -6,6 +6,12 @@
   padding: 3em;
 }
 
+.sweden__cites {
+	display: flex;
+	justify-content: space-around;
+	padding: 2em;
+}
+
 .countryName {
     text-align: center;
 }
