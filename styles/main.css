@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@500&family=Sansita+Swashed:wght@800&display=swap');
 @import "china.css";
 @import "sweden.css";
+@import "vanuatu.css";
 
 /*Typography
 --------------------------------------------------------------*/
@@ -52,7 +53,7 @@ h2, h3, h4,h5,h6 {
 	text-align: center;
 }
 
-.left__header__image {
+.left__headerImage {
 	display: flex;
 	justify-content: flex-start;
 	
@@ -73,12 +74,6 @@ display: flex;
 justify-content: center;
 }
 
-.van__banner__image {
-	display: flex;
-	justify-content: center;
-	padding: 3em
-}
-
 a {
 	background-color: white;
 	box-shadow: blue;
@@ -97,14 +92,6 @@ a:hover {
 a:active {
 box-shadow: none;
 top: 5px
-}
-
-
-.vanuatu__list {
-	display: flex;
-	justify-content: space-around;
-	padding: 2em;
-
 }
 
 .sweden__cites {
