@@ -3,7 +3,7 @@ import { useCitizen } from  "./celebrityDataProvider.js"
 
 
 export const CelebrityList = () => {
-   const elementContent = document.querySelector(".china__citizens")
+   const elementContent = document.querySelector(".china__container")
    const citizens = useCitizen()
     let citizenHTMLRepresentations = ""
 
@@ -13,7 +13,7 @@ export const CelebrityList = () => {
    }
 
    elementContent.innerHTML += `
-   <div class=china__citizens>
+   <div class="china__sites" id="china__citizens">
    <h3>Famous Citizens</h3>
    <p>${citizenHTMLRepresentations}</p>
    </div>`
